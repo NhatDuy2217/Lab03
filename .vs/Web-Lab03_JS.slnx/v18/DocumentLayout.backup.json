@@ -1,0 +1,194 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nhatd\\source\\repos\\Web-Lab03_JS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0070F1B0-0621-4484-9F9B-60E7DBD7E890}|Web-Lab03_JS\\Web-Lab03_JS.csproj|c:\\users\\nhatd\\source\\repos\\web-lab03_js\\web-lab03_js\\views\\lab03\\bai5.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0070F1B0-0621-4484-9F9B-60E7DBD7E890}|Web-Lab03_JS\\Web-Lab03_JS.csproj|solutionrelative:web-lab03_js\\views\\lab03\\bai5.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0070F1B0-0621-4484-9F9B-60E7DBD7E890}|Web-Lab03_JS\\Web-Lab03_JS.csproj|c:\\users\\nhatd\\source\\repos\\web-lab03_js\\web-lab03_js\\scripts\\bai5.js\\javascript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0070F1B0-0621-4484-9F9B-60E7DBD7E890}|Web-Lab03_JS\\Web-Lab03_JS.csproj|solutionrelative:web-lab03_js\\scripts\\bai5.js\\javascript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0070F1B0-0621-4484-9F9B-60E7DBD7E890}|Web-Lab03_JS\\Web-Lab03_JS.csproj|c:\\users\\nhatd\\source\\repos\\web-lab03_js\\web-lab03_js\\controllers\\lab03controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0070F1B0-0621-4484-9F9B-60E7DBD7E890}|Web-Lab03_JS\\Web-Lab03_JS.csproj|solutionrelative:web-lab03_js\\controllers\\lab03controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0070F1B0-0621-4484-9F9B-60E7DBD7E890}|Web-Lab03_JS\\Web-Lab03_JS.csproj|c:\\users\\nhatd\\source\\repos\\web-lab03_js\\web-lab03_js\\scripts\\bai4.js\\javascript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0070F1B0-0621-4484-9F9B-60E7DBD7E890}|Web-Lab03_JS\\Web-Lab03_JS.csproj|solutionrelative:web-lab03_js\\scripts\\bai4.js\\javascript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0070F1B0-0621-4484-9F9B-60E7DBD7E890}|Web-Lab03_JS\\Web-Lab03_JS.csproj|c:\\users\\nhatd\\source\\repos\\web-lab03_js\\web-lab03_js\\views\\lab03\\bai4.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0070F1B0-0621-4484-9F9B-60E7DBD7E890}|Web-Lab03_JS\\Web-Lab03_JS.csproj|solutionrelative:web-lab03_js\\views\\lab03\\bai4.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0070F1B0-0621-4484-9F9B-60E7DBD7E890}|Web-Lab03_JS\\Web-Lab03_JS.csproj|c:\\users\\nhatd\\source\\repos\\web-lab03_js\\web-lab03_js\\scripts\\bai2.js\\javascript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0070F1B0-0621-4484-9F9B-60E7DBD7E890}|Web-Lab03_JS\\Web-Lab03_JS.csproj|solutionrelative:web-lab03_js\\scripts\\bai2.js\\javascript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0070F1B0-0621-4484-9F9B-60E7DBD7E890}|Web-Lab03_JS\\Web-Lab03_JS.csproj|c:\\users\\nhatd\\source\\repos\\web-lab03_js\\web-lab03_js\\views\\lab03\\bai3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0070F1B0-0621-4484-9F9B-60E7DBD7E890}|Web-Lab03_JS\\Web-Lab03_JS.csproj|solutionrelative:web-lab03_js\\views\\lab03\\bai3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0070F1B0-0621-4484-9F9B-60E7DBD7E890}|Web-Lab03_JS\\Web-Lab03_JS.csproj|c:\\users\\nhatd\\source\\repos\\web-lab03_js\\web-lab03_js\\scripts\\bai3.js\\javascript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0070F1B0-0621-4484-9F9B-60E7DBD7E890}|Web-Lab03_JS\\Web-Lab03_JS.csproj|solutionrelative:web-lab03_js\\scripts\\bai3.js\\javascript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0070F1B0-0621-4484-9F9B-60E7DBD7E890}|Web-Lab03_JS\\Web-Lab03_JS.csproj|c:\\users\\nhatd\\source\\repos\\web-lab03_js\\web-lab03_js\\views\\lab03\\bai2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0070F1B0-0621-4484-9F9B-60E7DBD7E890}|Web-Lab03_JS\\Web-Lab03_JS.csproj|solutionrelative:web-lab03_js\\views\\lab03\\bai2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0070F1B0-0621-4484-9F9B-60E7DBD7E890}|Web-Lab03_JS\\Web-Lab03_JS.csproj|c:\\users\\nhatd\\source\\repos\\web-lab03_js\\web-lab03_js\\views\\lab03\\bai1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0070F1B0-0621-4484-9F9B-60E7DBD7E890}|Web-Lab03_JS\\Web-Lab03_JS.csproj|solutionrelative:web-lab03_js\\views\\lab03\\bai1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JavaScript.js",
+              "DocumentMoniker": "C:\\Users\\nhatd\\source\\repos\\Web-Lab03_JS\\Web-Lab03_JS\\Scripts\\Bai5.js\\JavaScript.js",
+              "RelativeDocumentMoniker": "Web-Lab03_JS\\Scripts\\Bai5.js\\JavaScript.js",
+              "ToolTip": "C:\\Users\\nhatd\\source\\repos\\Web-Lab03_JS\\Web-Lab03_JS\\Scripts\\Bai5.js\\JavaScript.js",
+              "RelativeToolTip": "Web-Lab03_JS\\Scripts\\Bai5.js\\JavaScript.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-10-02T14:41:03.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Bai5.cshtml",
+              "DocumentMoniker": "C:\\Users\\nhatd\\source\\repos\\Web-Lab03_JS\\Web-Lab03_JS\\Views\\Lab03\\Bai5.cshtml",
+              "RelativeDocumentMoniker": "Web-Lab03_JS\\Views\\Lab03\\Bai5.cshtml",
+              "ToolTip": "C:\\Users\\nhatd\\source\\repos\\Web-Lab03_JS\\Web-Lab03_JS\\Views\\Lab03\\Bai5.cshtml",
+              "RelativeToolTip": "Web-Lab03_JS\\Views\\Lab03\\Bai5.cshtml",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAkwGIAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-02T14:36:24.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JavaScript.js",
+              "DocumentMoniker": "C:\\Users\\nhatd\\source\\repos\\Web-Lab03_JS\\Web-Lab03_JS\\Scripts\\Bai4.js\\JavaScript.js",
+              "RelativeDocumentMoniker": "Web-Lab03_JS\\Scripts\\Bai4.js\\JavaScript.js",
+              "ToolTip": "C:\\Users\\nhatd\\source\\repos\\Web-Lab03_JS\\Web-Lab03_JS\\Scripts\\Bai4.js\\JavaScript.js",
+              "RelativeToolTip": "Web-Lab03_JS\\Scripts\\Bai4.js\\JavaScript.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-10-02T14:34:27.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Bai4.cshtml",
+              "DocumentMoniker": "C:\\Users\\nhatd\\source\\repos\\Web-Lab03_JS\\Web-Lab03_JS\\Views\\Lab03\\Bai4.cshtml",
+              "RelativeDocumentMoniker": "Web-Lab03_JS\\Views\\Lab03\\Bai4.cshtml",
+              "ToolTip": "C:\\Users\\nhatd\\source\\repos\\Web-Lab03_JS\\Web-Lab03_JS\\Views\\Lab03\\Bai4.cshtml",
+              "RelativeToolTip": "Web-Lab03_JS\\Views\\Lab03\\Bai4.cshtml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAkwHIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-02T14:33:38.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Lab03Controller.cs",
+              "DocumentMoniker": "C:\\Users\\nhatd\\source\\repos\\Web-Lab03_JS\\Web-Lab03_JS\\Controllers\\Lab03Controller.cs",
+              "RelativeDocumentMoniker": "Web-Lab03_JS\\Controllers\\Lab03Controller.cs",
+              "ToolTip": "C:\\Users\\nhatd\\source\\repos\\Web-Lab03_JS\\Web-Lab03_JS\\Controllers\\Lab03Controller.cs",
+              "RelativeToolTip": "Web-Lab03_JS\\Controllers\\Lab03Controller.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA1wB8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T14:04:35.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JavaScript.js",
+              "DocumentMoniker": "C:\\Users\\nhatd\\source\\repos\\Web-Lab03_JS\\Web-Lab03_JS\\Scripts\\Bai2.js\\JavaScript.js",
+              "RelativeDocumentMoniker": "Web-Lab03_JS\\Scripts\\Bai2.js\\JavaScript.js",
+              "ToolTip": "C:\\Users\\nhatd\\source\\repos\\Web-Lab03_JS\\Web-Lab03_JS\\Scripts\\Bai2.js\\JavaScript.js",
+              "RelativeToolTip": "Web-Lab03_JS\\Scripts\\Bai2.js\\JavaScript.js",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAgwK8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-10-02T14:22:56.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Bai3.cshtml",
+              "DocumentMoniker": "C:\\Users\\nhatd\\source\\repos\\Web-Lab03_JS\\Web-Lab03_JS\\Views\\Lab03\\Bai3.cshtml",
+              "RelativeDocumentMoniker": "Web-Lab03_JS\\Views\\Lab03\\Bai3.cshtml",
+              "ToolTip": "C:\\Users\\nhatd\\source\\repos\\Web-Lab03_JS\\Web-Lab03_JS\\Views\\Lab03\\Bai3.cshtml",
+              "RelativeToolTip": "Web-Lab03_JS\\Views\\Lab03\\Bai3.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAkwDUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-02T14:20:45.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JavaScript.js",
+              "DocumentMoniker": "C:\\Users\\nhatd\\source\\repos\\Web-Lab03_JS\\Web-Lab03_JS\\Scripts\\Bai3.js\\JavaScript.js",
+              "RelativeDocumentMoniker": "Web-Lab03_JS\\Scripts\\Bai3.js\\JavaScript.js",
+              "ToolTip": "C:\\Users\\nhatd\\source\\repos\\Web-Lab03_JS\\Web-Lab03_JS\\Scripts\\Bai3.js\\JavaScript.js",
+              "RelativeToolTip": "Web-Lab03_JS\\Scripts\\Bai3.js\\JavaScript.js",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAACEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-10-02T14:32:10.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Bai2.cshtml",
+              "DocumentMoniker": "C:\\Users\\nhatd\\source\\repos\\Web-Lab03_JS\\Web-Lab03_JS\\Views\\Lab03\\Bai2.cshtml",
+              "RelativeDocumentMoniker": "Web-Lab03_JS\\Views\\Lab03\\Bai2.cshtml",
+              "ToolTip": "C:\\Users\\nhatd\\source\\repos\\Web-Lab03_JS\\Web-Lab03_JS\\Views\\Lab03\\Bai2.cshtml",
+              "RelativeToolTip": "Web-Lab03_JS\\Views\\Lab03\\Bai2.cshtml",
+              "ViewState": "AgIAAO4AAAAAAAAAAAAYwAUBAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-02T14:09:30.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Bai1.cshtml",
+              "DocumentMoniker": "C:\\Users\\nhatd\\source\\repos\\Web-Lab03_JS\\Web-Lab03_JS\\Views\\Lab03\\Bai1.cshtml",
+              "RelativeDocumentMoniker": "Web-Lab03_JS\\Views\\Lab03\\Bai1.cshtml",
+              "ToolTip": "C:\\Users\\nhatd\\source\\repos\\Web-Lab03_JS\\Web-Lab03_JS\\Views\\Lab03\\Bai1.cshtml",
+              "RelativeToolTip": "Web-Lab03_JS\\Views\\Lab03\\Bai1.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAKEBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-02T14:05:13.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

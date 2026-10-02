@@ -1,0 +1,426 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Phiếu tham gia CLB Tin học</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 500px;
+            margin: 30px auto;
+        }
+
+        h2 {
+            text-align: center;
+            font-weight: normal;
+        }
+
+            h2 span {
+                color: #00aeef;
+                font-weight: bold;
+            }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 1px solid #777;
+        }
+
+        td {
+            padding: 8px;
+            border: 1px solid #ddd;
+        }
+
+            td:first-child {
+                width: 150px;
+            }
+
+        input[type="text"],
+        input[type="number"] {
+            width: 150px;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+
+        select {
+            width: 160px;
+            padding: 4px;
+        }
+
+        button {
+            padding: 5px 15px;
+            cursor: pointer;
+        }
+
+        .error {
+            color: red;
+            font-style: italic;
+        }
+
+        .success {
+            color: blue;
+            font-style: italic;
+        }
+
+        #sotruong {
+            font-style: italic;
+        }
+
+        #result {
+            margin-top: 8px;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <div class="container">
+
+        <h2>
+            PHIẾU THAM GIA CLB TIN HỌC
+            <span>LUBU</span>
+        </h2>
+
+
+        <form onsubmit="return dangKy();">
+
+            <table>
+
+                <!-- Mã sinh viên -->
+                <tr>
+                    <td>
+                        Mã sinh viên :
+                    </td>
+
+                    <td>
+                        <input type="text"
+                               id="masv"
+                               placeholder="Nhập Mã SV">
+
+                        <span id="masv_error"></span>
+                    </td>
+                </tr>
+
+
+                <!-- Họ và tên -->
+                <tr>
+                    <td>
+                        Họ và tên :
+                    </td>
+
+                    <td>
+                        <input type="text"
+                               id="hoten"
+                               placeholder="Nhập Họ và tên">
+
+                        <span id="hoten_error"></span>
+                    </td>
+                </tr>
+
+
+                <!-- Tuổi -->
+                <tr>
+                    <td>
+                        Tuổi :
+                    </td>
+
+                    <td>
+                        <input type="number"
+                               id="tuoi"
+                               placeholder="Nhập tuổi > 18">
+
+                        <span id="tuoi_error"></span>
+                    </td>
+                </tr>
+
+
+                <!-- Ngoại ngữ -->
+                <tr>
+                    <td>
+                        Ngoại ngữ :
+                    </td>
+
+                    <td>
+
+                        <input type="checkbox"
+                               name="ngoaingu"
+                               value="Anh">
+                        Anh
+
+                        <input type="checkbox"
+                               name="ngoaingu"
+                               value="Pháp">
+                        Pháp
+
+                        <input type="checkbox"
+                               name="ngoaingu"
+                               value="Nhật">
+                        Nhật
+
+                        <span id="ngoaingu_result"></span>
+
+                    </td>
+                </tr>
+
+
+                <!-- Chuyên ngành -->
+                <tr>
+                    <td>
+                        Chuyên ngành :
+                    </td>
+
+                    <td>
+
+                        <select id="chuyennganh"
+                                onchange="hienThiSoTruong();">
+
+                            <option value="hethong">
+                                Hệ thống
+                            </option>
+
+                            <option value="phanmem">
+                                Phần mềm
+                            </option>
+
+                            <option value="mang">
+                                Mạng máy tính
+                            </option>
+
+                        </select>
+
+                    </td>
+                </tr>
+
+
+                <!-- Sở trường -->
+                <tr>
+                    <td>
+                        Sở trường :
+                    </td>
+
+                    <td>
+                        <span id="sotruong">
+                            Phân tích & Thiết kế
+                        </span>
+                    </td>
+                </tr>
+
+
+                <!-- Đăng ký -->
+                <tr>
+                    <td colspan="2" style="text-align:center;">
+
+                        <button type="submit">
+                            Đăng ký
+                        </button>
+
+                        <div id="result"></div>
+
+                    </td>
+                </tr>
+
+            </table>
+
+        </form>
+
+    </div>
+
+    <script language="Javacript">
+        function hienThiSoTruong() {
+
+            var chuyenNganh =
+                document.getElementById("chuyennganh").value;
+
+            var soTruong =
+                document.getElementById("sotruong");
+
+
+            if (chuyenNganh == "hethong") {
+
+                soTruong.innerHTML =
+                    "Phân tích & Thiết kế";
+
+            }
+            else if (chuyenNganh == "phanmem") {
+
+                soTruong.innerHTML =
+                    "Lập trình";
+
+            }
+            else if (chuyenNganh == "mang") {
+
+                soTruong.innerHTML =
+                    "Quản lý mạng";
+            }
+}
+
+        function dangKy() {
+
+            var hopLe = true;
+
+            document.getElementById(
+                "masv_error"
+            ).innerHTML = "";
+
+            document.getElementById(
+                "hoten_error"
+            ).innerHTML = "";
+
+            document.getElementById(
+                "tuoi_error"
+            ).innerHTML = "";
+
+            document.getElementById(
+                "ngoaingu_result"
+            ).innerHTML = "";
+
+            document.getElementById(
+                "result"
+            ).innerHTML = "";
+
+            var maSV =
+                document.getElementById("masv")
+                    .value
+                    .trim();
+
+
+            if (maSV.length != 10) {
+
+                hopLe = false;
+
+                document.getElementById(
+                    "masv_error"
+                ).innerHTML =
+
+                    '<span class="error">' +
+                    "Mã sinh viên gồm 10 ký tự" +
+                    "</span>";
+            }
+
+            var hoTen =
+                document.getElementById("hoten")
+                    .value
+                    .trim();
+
+
+            if (hoTen == "") {
+
+                hopLe = false;
+
+                document.getElementById(
+                    "hoten_error"
+                ).innerHTML =
+
+                    '<span class="error">' +
+                    "Họ tên không rỗng" +
+                    "</span>";
+            }
+
+            else if (hoTen.length > 30) {
+
+                hopLe = false;
+
+                document.getElementById(
+                    "hoten_error"
+                ).innerHTML =
+
+                    '<span class="error">' +
+                    "Họ tên không quá 30 ký tự" +
+                    "</span>";
+            }
+
+            var tuoi =
+                document.getElementById("tuoi")
+                    .value;
+
+
+            if (tuoi == "" || parseInt(tuoi) < 18) {
+
+                hopLe = false;
+
+                document.getElementById(
+                    "tuoi_error"
+                ).innerHTML =
+
+                    '<span class="error">' +
+                    "Tuổi phải 18 trở lên" +
+                    "</span>";
+            }
+
+            var ngoaiNgu =
+                document.getElementsByName(
+                    "ngoaingu"
+                );
+
+
+            var danhSach =
+                [];
+
+
+            for (
+                var i = 0;
+                i < ngoaiNgu.length;
+                i++
+            ) {
+
+                if (ngoaiNgu[i].checked) {
+
+                    danhSach.push(
+                        ngoaiNgu[i].value
+                    );
+                }
+            }
+
+            if (danhSach.length > 0) {
+
+                document.getElementById(
+                    "ngoaingu_result"
+                ).innerHTML =
+
+                    '<span class="success">' +
+                    danhSach.join(" và ") +
+                    "</span>";
+            }
+
+            if (hopLe == true) {
+
+                document.getElementById(
+                    "result"
+                ).innerHTML =
+
+                    '<span class="success">' +
+                    "Bạn đã đăng ký thành công" +
+                    "</span>";
+
+            }
+            else {
+
+                document.getElementById(
+                    "result"
+                ).innerHTML =
+
+                    '<span class="error">' +
+                    "Bạn phải nhập lại cho đúng" +
+                    "</span>";
+            }
+            return false;
+        }
+
+    </script>
+
+</body>
+
+</html>
